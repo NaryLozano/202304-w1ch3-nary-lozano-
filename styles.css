@@ -23,12 +23,12 @@ main {
   display: flex;
 }
 h1 {
-  flex: 2;
-  margin: 2.5%;
+  flex: 1;
+  margin: 1rem;
 }
 
 nav {
-  flex: 2;
+  flex: 1;
 }
 
 ul {
@@ -39,7 +39,7 @@ ul {
 
 li {
   display: flex;
-  margin: 5%;
+  margin-top: 1rem;
 }
 
 section {
@@ -51,21 +51,29 @@ section {
 }
 
 h2 {
-  margin-left: 3%;
-  padding: 2%;
+  margin-left: 1rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 5%;
+  margin: 2rem;
 }
 
 label {
-  padding: 2%;
+  padding: 0.5rem;
+  border: none;
 }
 
 input {
-  padding: 2%;
+  padding: 0.9rem;
+  border: none;
+}
+
+button {
+  background-color: #279989;
+  color: #fff;
+  padding: 1rem;
+  border: none;
 }
