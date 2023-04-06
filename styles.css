@@ -7,6 +7,11 @@ html {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   background-color: #279989;
   color: #fff;
@@ -14,13 +19,16 @@ header {
   justify-content: space-evenly;
 }
 
+main {
+  display: flex;
+}
 h1 {
-  flex: 2;
-  margin: 2.5%;
+  flex: 1;
+  margin: 1rem;
 }
 
 nav {
-  flex: 2;
+  flex: 1;
 }
 
 ul {
@@ -31,5 +39,41 @@ ul {
 
 li {
   display: flex;
-  margin: 5%;
+  margin-top: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffcd57;
+  flex: 8;
+}
+
+h2 {
+  margin-left: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+label {
+  padding: 0.5rem;
+  border: none;
+}
+
+input {
+  padding: 0.9rem;
+  border: none;
+}
+
+button {
+  background-color: #279989;
+  color: #fff;
+  padding: 1rem;
+  border: none;
 }
